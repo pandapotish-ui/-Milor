@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('d05a782329cf2cba1ba62ff0bc8c3ef9.gif'); /* Укажите изображение космоса */
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Высота на весь экран */
+    text-align: center;
+}
+
+.avatar {
+    width: 150px; /* Ширина аватарки */
+    height: 150px; /* Высота аватарки */
+    border-radius: 50%; /* Скругление для круглой аватарки */
+    border: 4px solid white; /* Белая рамка вокруг аватарки */
+}
+
+.bio {
+    margin-top: 20px; /* Отступ между аватаркой и текстом */
+}
